@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.braosrobticod">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/braco"
+        android:label="Braços Robóticos"
+        android:roundIcon="@drawable/braco"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BraçosRobóticod">
+        <activity
+            android:name=".Compras_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TRLR_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Informacoes_TRR"
+            android:exported="false" />
+        <activity
+            android:name=".Informacoes_RLR"
+            android:exported="false" />
+        <activity
+            android:name=".Informacoes_RRR"
+            android:exported="false" />
+        <activity
+            android:name=".Informacoes_RL"
+            android:exported="false" />
+        <activity
+            android:name=".Informacoes_RR"
+            android:exported="false" />
+        <activity
+            android:name=".informacoes_R"
+            android:exported="false" />
+        <activity
+            android:name=".Informacoes_Main"
+            android:exported="false" />
+        <activity
+            android:name=".RLR_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TRR_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".RRR_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".RL_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".RR_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".R_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
